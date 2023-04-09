@@ -1,0 +1,35 @@
+
+QTableView::indicator {
+	
+border: 1px solid palette(Text);
+}
+
+QTableView::indicator:checked {
+	
+	background-color:palette(Text)
+}
+
+QToolButton::menu-indicator
+{
+    image:none;
+} 
+
+QTabWidget > QWidget {
+	
+}
+
+QDockWidget QToolBar
+{
+  
+  background: palette(alternate-base);
+  border-top: 1px solid palette(midlight);
+
+}
+
+QTabWidget{
+}
+
+
+QMainWindow > QToolBar {
+border:none
+}
